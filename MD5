@@ -1,0 +1,12 @@
+48278ec54dbb0fad7e10c1f3ce41c979 *DESCRIPTION
+2cc17ffeb0b962157982ee0983a0074b *NAMESPACE
+b3b026a46bd21378f2afa4cdfb4e4951 *NEWS.md
+9762cc2ded505bd23b38d878343b39e8 *R/randquote.R
+325eacff53243793f899b3c764f15489 *R/randquotes-package.R
+a92059c7edb8746e88c5fb40df0bdfd9 *R/utils.R
+9e39be505350470a60c5b81f6ecf06a7 *README.md
+d7b959c042a41d2129d669a05f643c09 *man/randquote.Rd
+329816482ab3762d6cadd8b931f78151 *man/randquote_simple.Rd
+1546b1a58225d00af8eba801f3641e39 *man/randquotes.Rd
+b87bf82e7eef8e9a9d7658a31847d036 *tests/test-all.R
+e436f1ee6ba4b14b87c6bb4434091a17 *tests/testthat/test-randquotes.R
