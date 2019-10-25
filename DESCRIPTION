@@ -1,14 +1,15 @@
 Package: randquotes
 Type: Package
 Title: Get Random Quotes from Quotes on Design API
-Version: 0.1.0
-Date: 2018-05-08
+Version: 0.1.1
+Date: 2019-10-25
 Authors@R: c(
-    person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre"))
+    person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre")),
+    person("Kasia",  "Kulma", email = "katarzyna.kulma@gmail.com", role = "aut")
   )
 Maintainer: AbdulMajedRaja RS <amrrs.data@gmail.com>
 Description: Connects to the site <http://quotesondesign.com/> 
-            that uses the 'WordPress' JSON REST API 
+            that uses the 'WordPress' built-in REST API 
             to provide a way for you to grab quotes.
 URL: https://github.com/amrrs/randquotes
 BugReports: https://github.com/amrrs/randquotes/issues
@@ -16,10 +17,11 @@ Encoding: UTF-8
 License: AGPL
 Suggests: testthat
 Depends: R (>= 3.2.0)
-Imports: jsonlite, xml2, curl
-RoxygenNote: 6.0.1
+Imports: jsonlite, xml2, curl, httr
+RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2018-05-11 13:28:27 UTC; SA31
-Author: AbdulMajedRaja RS [aut, cre]
+Packaged: 2019-10-25 19:11:54 UTC; abdrs
+Author: AbdulMajedRaja RS [aut, cre],
+  Kasia Kulma [aut]
 Repository: CRAN
-Date/Publication: 2018-05-11 14:01:46 UTC
+Date/Publication: 2019-10-25 22:50:02 UTC
